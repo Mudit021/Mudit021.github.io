@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mudit Gupta | Career Portfolio</title>
+  <meta name="description" content="Role-based portfolio of Mudit Gupta – Data Scientist, Data Analyst, Developer & Systems roles." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <nav>
+    <h2>Mudit Gupta</h2>
+    <div>
+      <a href="https://github.com/Mudit021" target="_blank">GitHub</a>
+      &nbsp;|&nbsp;
+      <a href="https://linkedin.com/in/mudit-gupta-07a766281/" target="_blank">LinkedIn</a>
+    </div>
+  </nav>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <h1>Hi, I’m <span>Mudit Gupta</span></h1>
+    <p>BTech CSE Student | Data • AI • Systems • Software</p>
+    <p class="sub">
+      A role-focused portfolio showcasing where I can contribute professionally
+    </p>
+  </section>
+
+  <!-- ================= CAREER PATHS ================= -->
+  <section class="roles">
+    <h2>Career Path I Am Prepared For</h2>
+
+    <div class="role-grid">
+
+      <!-- Data Analyst -->
+      <a href="roles/data-analytics.html" class="role-card">
+        <h3>📊 Data Analyst</h3>
+        <p>
+          Data cleaning, exploratory analysis, visualization
+          and business insight generation.
+        </p>
+      </a>
+
+    </div>
+  </section>
+
+
+
+
+<!-- GITHUB REPOSITORIES -->
+<section class="github-repos-section">
+  <h2>My GitHub Repositories</h2>
+  <p class="section-subtitle">Fetched directly from my GitHub profile</p>
+  
+  <!-- Loading State -->
+  <div id="loading" class="loading">
+    <p>Loading repositories...</p>
+  </div>
+
+  <!-- Repositories Grid -->
+  <div id="repos-container" class="repos-grid"></div>
+
+  <!-- Error State -->
+  <div id="error" class="error-message" style="display: none;">
+    <p>Unable to load repositories. Please visit my <a href="https://github.com/Mudit021" target="_blank">GitHub profile</a> directly.</p>
+  </div>
+</section>
+
+
+
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    <p>© 2026 Mudit Gupta</p>
+    <p>
+      <a href="mailto:your.email@example.com">Contact</a>
+    </p>
+  </footer>
+
+ <!-- GitHub Repos Script -->
+  <script src="github-repos.js"></script>
+</body>
+</html>
