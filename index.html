@@ -6,6 +6,7 @@
   <title>Mudit Gupta | Career Portfolio</title>
   <meta name="description" content="Role-based portfolio of Mudit Gupta – Data Scientist, Data Analyst, Developer & Systems roles." />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="certificates.css" />
 </head>
 
 <body>
@@ -75,6 +76,22 @@
       </a>
     </section>
 
+    <!-- ================= CERTIFICATES ================= -->
+    <section class="certificates-section">
+      <h2>Certificates & Achievements</h2>
+      <p class="section-subtitle">Automatically updated from my Google Drive</p>
+
+      <div id="certs-loading" class="loading">
+        <p>Loading certificates...</p>
+      </div>
+
+      <div id="certs-container" class="certs-grid"></div>
+
+      <div id="certs-error" class="error-message" style="display: none;">
+        <p>Unable to load certificates. Please check back later.</p>
+      </div>
+    </section>
+
     <!-- ================= GITHUB REPOS ================= -->
     <section class="github-repos-section">
       <h2>My GitHub Repositories</h2>
@@ -109,6 +126,7 @@
 
   <!-- ================= SCRIPTS ================= -->
   <script src="github-repos.js"></script>
+  <script src="certificates.js"></script>
 
 </body>
 </html>
